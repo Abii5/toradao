@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  @apply flex flex-col items-center text-center bg-opacity-60 backdrop-blur-sm justify-center border-[#1F51ff] border-t-4 bg-black h-max rounded-md drop-shadow-xl p-8 w-80;
+}
+
+.button {
+  @apply bg-[#1F51ff] hover:bg-[#00008B] rounded-md px-6 py-2 transition-all ease-in-out text-white font-semibold cursor-pointer;
+}
