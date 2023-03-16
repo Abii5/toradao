@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import Link from "next/link";
 
-interface Props {}
+interface Props { }
 
 const Footer: React.FC<Props> = (props) => {
   function truncate(str: string, n: number) {
@@ -15,10 +15,10 @@ const Footer: React.FC<Props> = (props) => {
           <Link href={"https://toramatic.com"}>
             <img src="/home.svg" alt="" className="h-6 w-6" />
           </Link>
-          <Link href={"https://t.me/toratokenmatic"}>
+          <Link href={" https://t.me/TheToraToken"}>
             <img src="/telegram.svg" alt="" className="h-6 w-6" />
           </Link>
-          <Link href={"https://twitter.com/toratokenmatic"}>
+          <Link href={"https://twitter.com/ToraToken?t=v7sI9my2LKZk5_4C_l8tQQ&s=08"}>
             <img src="/twitter.svg" alt="" className="h-6 w-6" />
           </Link>
         </div>
